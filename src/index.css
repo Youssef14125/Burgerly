@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-base text-ink;
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded border border-line bg-surface px-4 py-2 text-sm text-ink transition-colors duration-200 placeholder:text-muted focus:border-neon focus:outline-none focus:ring-1 focus:ring-neon md:px-6 md:py-3;
+  }
+
+  .text-glow {
+    text-shadow:
+      0 0 6px rgba(212, 255, 61, 0.55),
+      0 0 22px rgba(212, 255, 61, 0.3);
+  }
+
+  /* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
+  .loader {
+    width: 45px;
+    aspect-ratio: 0.75;
+    --c: no-repeat linear-gradient(theme(colors.neon) 0 0);
+    background: var(--c) 0% 50%, var(--c) 50% 50%, var(--c) 100% 50%;
+    background-size: 20% 50%;
+    animation: loading 1s infinite linear;
+  }
+
+  @keyframes loading {
+    20% {
+      background-position: 0% 0%, 50% 50%, 100% 50%;
+    }
+    40% {
+      background-position: 0% 100%, 50% 0%, 100% 50%;
+    }
+    60% {
+      background-position: 0% 50%, 50% 100%, 100% 0%;
+    }
+    80% {
+      background-position: 0% 50%, 50% 50%, 100% 100%;
+    }
+  }
+}

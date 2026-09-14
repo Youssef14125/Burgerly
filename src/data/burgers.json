@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Cheeseburger",
+    "unitPrice": 9,
+    "ingredients": ["beef patty", "cheddar", "lettuce", "tomato", "onion", "burger sauce"],
+    "soldOut": false,
+    "imageUrl": "https://placehold.co/300x300/f5a623/ffffff/png?text=Cheeseburger"
+  },
+  {
+    "id": 2,
+    "name": "Bacon BBQ Burger",
+    "unitPrice": 11,
+    "ingredients": ["beef patty", "bacon", "cheddar", "onion rings", "bbq sauce"],
+    "soldOut": false,
+    "imageUrl": "https://placehold.co/300x300/8b4513/ffffff/png?text=Bacon+BBQ"
+  },
+  {
+    "id": 3,
+    "name": "Double Smash Burger",
+    "unitPrice": 12,
+    "ingredients": ["two beef patties", "american cheese", "pickles", "smash sauce"],
+    "soldOut": false,
+    "imageUrl": "https://placehold.co/300x300/c0392b/ffffff/png?text=Double+Smash"
+  },
+  {
+    "id": 4,
+    "name": "Mushroom Swiss Burger",
+    "unitPrice": 10,
+    "ingredients": ["beef patty", "swiss cheese", "sauteed mushrooms", "garlic aioli"],
+    "soldOut": true,
+    "imageUrl": "https://placehold.co/300x300/6b8e23/ffffff/png?text=Mushroom+Swiss"
+  },
+  {
+    "id": 5,
+    "name": "Spicy Jalapeno Burger",
+    "unitPrice": 10,
+    "ingredients": ["beef patty", "pepper jack", "jalapenos", "chipotle mayo"],
+    "soldOut": false,
+    "imageUrl": "https://placehold.co/300x300/e74c3c/ffffff/png?text=Spicy+Jalapeno"
+  },
+  {
+    "id": 6,
+    "name": "Veggie Burger",
+    "unitPrice": 9,
+    "ingredients": ["veggie patty", "lettuce", "tomato", "vegan mayo", "avocado"],
+    "soldOut": false,
+    "imageUrl": "https://placehold.co/300x300/27ae60/ffffff/png?text=Veggie"
+  },
+  {
+    "id": 7,
+    "name": "Chicken Crunch Burger",
+    "unitPrice": 10,
+    "ingredients": ["fried chicken", "slaw", "pickles", "spicy mayo"],
+    "soldOut": false,
+    "imageUrl": "https://placehold.co/300x300/f39c12/ffffff/png?text=Chicken+Crunch"
+  },
+  {
+    "id": 8,
+    "name": "Truffle Deluxe Burger",
+    "unitPrice": 14,
+    "ingredients": ["beef patty", "truffle aioli", "gruyere", "caramelized onions"],
+    "soldOut": false,
+    "imageUrl": "https://placehold.co/300x300/34495e/ffffff/png?text=Truffle+Deluxe"
+  }
+]
