@@ -12,7 +12,7 @@
       "burger sauce"
     ],
     "soldOut": false,
-    "imageUrl": "https://placehold.co/300x300/f5a623/ffffff/png?text=Cheeseburger"
+    "imageUrl": "https://s23209.pcdn.co/wp-content/uploads/2022/07/220602_DD_The-Best-Ever-Cheeseburger_267.jpg"
   },
   {
     "id": 2,
@@ -26,7 +26,7 @@
       "bbq sauce"
     ],
     "soldOut": false,
-    "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349"
+    "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=300&q=70"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "smash sauce"
     ],
     "soldOut": false,
-    "imageUrl": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90"
+    "imageUrl": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=300&q=70"
   },
   {
     "id": 4,
@@ -52,7 +52,7 @@
       "garlic aioli"
     ],
     "soldOut": true,
-    "imageUrl": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9"
+    "imageUrl": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=300&q=70"
   },
   {
     "id": 5,
@@ -60,7 +60,7 @@
     "unitPrice": 10,
     "ingredients": ["beef patty", "pepper jack", "jalapenos", "chipotle mayo"],
     "soldOut": false,
-    "imageUrl": "https://images.unsplash.com/photo-1553979459-d2229ba7433b"
+    "imageUrl": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=300&q=70"
   },
   {
     "id": 6,
@@ -74,7 +74,7 @@
       "avocado"
     ],
     "soldOut": false,
-    "imageUrl": "https://images.unsplash.com/photo-1520072959219-c595dc870360"
+    "imageUrl": "https://images.unsplash.com/photo-1520072959219-c595dc870360?w=300&q=70"
   },
   {
     "id": 7,
@@ -82,7 +82,7 @@
     "unitPrice": 10,
     "ingredients": ["fried chicken", "slaw", "pickles", "spicy mayo"],
     "soldOut": false,
-    "imageUrl": "https://images.unsplash.com/photo-1606755962773-d324e0a13086"
+    "imageUrl": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=300&q=70"
   },
   {
     "id": 8,
@@ -95,6 +95,6 @@
       "caramelized onions"
     ],
     "soldOut": false,
-    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=70"
   }
 ]

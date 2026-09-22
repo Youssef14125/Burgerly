@@ -1,9 +1,6 @@
-import burgers from '../data/burgers.json';
+import burgers from "../data/burgers.json";
 
-// This app no longer talks to a remote server. Menu data is static,
-// and orders are persisted locally (localStorage) to simulate a backend.
-
-const ORDERS_KEY = 'fastReactBurger_orders';
+const ORDERS_KEY = "fastReactBurger_orders";
 
 function readOrders() {
   try {
@@ -38,21 +35,30 @@ export async function getOrder(id) {
   return order;
 }
 
+export async function getAllOrders() {
+  await delay();
+  const orders = readOrders();
+  return Object.values(orders).sort(
+    (a, b) => new Date(b.createdAt) - new Date(a.createdAt),
+  );
+}
+
 export async function createOrder(newOrder) {
   await delay();
 
   const orderPrice = newOrder.cart.reduce(
     (sum, item) => sum + item.totalPrice,
-    0
+    0,
   );
   const priorityPrice = newOrder.priority ? orderPrice * 0.2 : 0;
 
   const order = {
     ...newOrder,
     id: generateOrderId(),
-    status: 'preparing',
+    status: "preparing",
     priorityPrice,
     orderPrice,
+    createdAt: new Date().toISOString(),
     estimatedDelivery: new Date(Date.now() + 30 * 60 * 1000).toISOString(),
   };
 

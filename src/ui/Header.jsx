@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import SearchOrder from '../features/order/SearchOrder';
-import Username from '../features/user/Username';
+import { Link } from "react-router-dom";
+import SearchOrder from "../features/order/SearchOrder";
+import Username from "../features/user/Username";
 
 function Header() {
   return (
@@ -9,11 +9,19 @@ function Header() {
         to="/"
         className="font-display text-2xl tracking-wider text-neon text-glow"
       >
-        Fast React Burger Co.
+        Burgerly
       </Link>
 
-      <SearchOrder />
-      <Username />
+      <div className="flex items-center gap-4">
+        <Link
+          to="/orders"
+          className="hidden text-sm font-medium text-muted hover:text-neon sm:block"
+        >
+          My orders
+        </Link>
+        <SearchOrder />
+        <Username />
+      </div>
     </header>
   );
 }

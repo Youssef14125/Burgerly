@@ -19,8 +19,8 @@ function CreateUser() {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col items-center">
-      <p className="mb-4 text-sm text-text-gray-300 md:text-ink">
-        👋 Welcome! Please start by telling us your name:
+      <p className="mb-4 text-sm md:text-base !text-white">
+        Welcome! Please start by telling us your name:
       </p>
 
       <input
